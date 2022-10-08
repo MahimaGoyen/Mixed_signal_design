@@ -1,4 +1,14 @@
 # Design and Implementation of 8 Bit SRAM
+##Content
+1. Abstact
+2. Introduction
+3. Decoder
+4. 6T SRAM
+5. 1 bit SSRAM
+6. Results
+7. Files
+8.  Reference
+9. Acknowledgmenet
 
 ## Abstract
 Static Random Access Memory (SRAM) is a static memory cell which is being used in various electronic devices. It is faster as compared to other memory cells and even consumes lesser power and is not required to be refreshed periodically. The application of this circuit can be a simple memory element, a Lookup table for an FPGA etc.
