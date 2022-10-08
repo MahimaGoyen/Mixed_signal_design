@@ -21,9 +21,9 @@ The architecture of the 6T SRAM cell is shown in the figure 1. A basic 6T SRAM c
 We will be using 8 of such circuits in order to get the 8 bits required for the implementation. This array of 1 bit RAM will be modified (read and write) using a decoder circuit. The decoder will be coded in Verilog and the SRAM will be made in Esim.
 </br>
 
-## 2.	Decoder
+## 2.	Decoder and Writer
 </br>
-## 3.	6T SRAM
+## 3. 6T SRAM
 </br>
 ## 4.	1 bit SRAM
 </br>
