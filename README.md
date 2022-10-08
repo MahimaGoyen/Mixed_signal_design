@@ -24,11 +24,13 @@ We will be using 8 of such circuits in order to get the 8 bits required for the 
 ## 2.	Decoder and Writer
 Decoder is a digital circuit which is used to change a given code into a set of signals. Here we are using a Decoder to select one out of eight 1-bit RAM cells to perform the read/write operation to.
 </br>
-![image] Decoder(https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/decoder.PNG)
+Decoder
+![image](https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/decoder.PNG)
 </br>
 This circuit provides the input to the 6T SRAM cell. The funtionality of this block is to provide bl and blb to the SRAM cell, when the inputs wl and din are high the bl and blb will also be high else both the outputs will be low. For this design the Writer Circuit has been designed using the NgVeri feature of the eSIM. The Verilog code is as follows:
 </br>
-![image] Writer (https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/writer.PNG)
+Writer
+![image](https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/writer.PNG)
 </br>
 ## 3. 6T SRAM
 ![image](https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/6t.PNG)
