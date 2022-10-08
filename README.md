@@ -12,7 +12,7 @@ We will be using 8 of such circuits in order to get the 8 bits required for the 
 
 ## 2.	Decoder
 </br>
-## 3.	6T STAM
+## 3.	6T SRAM
 </br>
 ## 4.	1 bit SRAM
 </br>
@@ -26,5 +26,5 @@ We will be using 8 of such circuits in order to get the 8 bits required for the 
 
 ## Reference
 [1] Design of Read and Write Operations for 6t Sram Cell (https://www.iosjournals.org/iosr-jvlsi/papers/vol8-issue1/Version-1/E0801014346.pdf)
-[2] “6T SRAM Cell: Design and Analysis” Int. Journal of Engineering Research and Applications, Vol. 4, Issue 3, March 2014 (https://www.ijera.com/papers/Vol4_issue3/Version%201/CX4301574577.pdf)
+[2] “6T SRAM Cell: Design and Analysis” Int. Journal of Engineering Research and Applications, Vol. 4, Issue 3, March 2014 (https://www.ijera.com/papers/Vol4_issue3/Version%201/CX4301574577.pdf)</br>
 [3] Sah, Rohit & Hussain, Inamul & Kumar, Manish. (2020). Performance Analysis of a 6T SRAM Cell in 180nm CMOS Technology. 10.9790/4200-05212022.
