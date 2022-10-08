@@ -1,0 +1,18 @@
+* Subcircuit mahima_6t_ram
+.subckt mahima_6t_ram wl bl blb q 
+* /home/mahimagoyen1996/esim-2.3/library/subcircuitlibrary/mahima_6t_ram/mahima_6t_ram.cir
+.include NMOS-180nm.lib
+.include PMOS-180nm.lib
+m3 net-_m3-pad1_ q net-_m2-pad1_ net-_m3-pad1_ CMOSP W=180 L=180 M=1
+m5 net-_m3-pad1_ net-_m2-pad1_ q net-_m3-pad1_ CMOSP W=180 L=180 M=1
+m2 net-_m2-pad1_ q gnd gnd CMOSN W=360 L=180 M=1
+m4 q net-_m2-pad1_ gnd gnd CMOSN W=360 L=180 M=1
+m1 q wl bl gnd CMOSN W=360 L=180 M=1
+v3  bl gnd pulse(0 1.8 1u 1p 1p 1u 2u)
+v2  wl gnd pulse(0 1.8 0 1p 1p 5u 10u)
+v1 net-_m3-pad1_ gnd  dc 1.8
+m6 blb wl net-_m2-pad1_ gnd CMOSN W=360 L=180 M=1
+v4  blb gnd pulse(0 1.8 0 1p 1p 1u 2u)
+* Control Statements
+
+.ends mahima_6t_ram

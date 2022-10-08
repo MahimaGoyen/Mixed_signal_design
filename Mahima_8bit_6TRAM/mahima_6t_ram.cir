@@ -1,0 +1,21 @@
+* /home/mahimagoyen1996/eSim-2.3/library/SubcircuitLibrary/mahima_6t_ram/mahima_6t_ram.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 07:56:27 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M3  Net-_M3-Pad1_ q Net-_M2-Pad1_ Net-_M3-Pad1_ mosfet_p		
+M5  Net-_M3-Pad1_ Net-_M2-Pad1_ q Net-_M3-Pad1_ mosfet_p		
+M2  Net-_M2-Pad1_ q GND GND mosfet_n		
+M4  q Net-_M2-Pad1_ GND GND mosfet_n		
+M1  q wl bl GND mosfet_n		
+v3  bl GND pulse		
+v2  wl GND pulse		
+v1  Net-_M3-Pad1_ GND DC		
+M6  blb wl Net-_M2-Pad1_ GND mosfet_n		
+v4  blb GND pulse		
+U2  wl bl blb q PORT		
+
+.end

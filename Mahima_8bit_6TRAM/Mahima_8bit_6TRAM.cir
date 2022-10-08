@@ -1,0 +1,40 @@
+* /home/mahimagoyen1996/eSim-Workspace/Mahima_8bit_6TRAM/Mahima_8bit_6TRAM.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 08:55:26 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ mahima_decoder		
+U2  a2 a1 a0 Net-_U2-Pad4_ Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ adc_bridge_4		
+U3  Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U3-Pad9_ Net-_U3-Pad10_ Net-_U3-Pad11_ Net-_U3-Pad12_ Net-_U3-Pad13_ Net-_U3-Pad14_ Net-_U3-Pad15_ Net-_U3-Pad16_ dac_bridge_8		
+X1  din Net-_U3-Pad9_ ren dout7 Mahima_1bit_sram 		
+X2  din Net-_U3-Pad10_ ren dout6 Mahima_1bit_sram 		
+X3  din Net-_U3-Pad11_ ren dout5 Mahima_1bit_sram		
+X4  din Net-_U3-Pad12_ ren dout4 Mahima_1bit_sram		
+X5  din Net-_U3-Pad13_ ren dout3 Mahima_1bit_sram		
+X6  din Net-_U3-Pad14_ ren dout2 Mahima_1bit_sram		
+X7  din Net-_U3-Pad15_ ren dout1 Mahima_1bit_sram		
+X8  din Net-_U3-Pad16_ ren dout0 Mahima_1bit_sram		
+U4  dout7 plot_v1		
+U5  dout6 plot_v1		
+U6  dout5 plot_v1		
+U7  dout4 plot_v1		
+U8  dout3 plot_v1		
+U9  dout2 plot_v1		
+U10  dout1 plot_v1		
+U11  dout0 plot_v1		
+v1  a2 GND pulse		
+v2  a1 GND pulse		
+v3  a0 GND pulse		
+v6  din GND pulse		
+v4  Net-_U2-Pad4_ GND DC		
+v5  ren GND pulse
+U12  a2 plot_v1		
+U13  a1 plot_v1		
+U14  a0 plot_v1		
+U15  din plot_v1		
+U16  ren plot_v1		
+
+.end

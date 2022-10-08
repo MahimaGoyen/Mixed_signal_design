@@ -1,0 +1,76 @@
+* /home/mahimagoyen1996/eSim-2.3/library/SubcircuitLibrary/1_bit_FInal/1_bit_FInal.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 10:29:13 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ dac_bridge_2		
+U13  Net-_U13-Pad1_ Net-_U13-Pad2_ Net-_U13-Pad3_ Net-_U13-Pad4_ dac_bridge_2		
+U5  Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U13-Pad1_ Net-_U13-Pad2_ mahima_writer		
+U9  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ adc_bridge_2		
+M1  Net-_M1-Pad1_ q Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M13  Net-_M1-Pad1_ ren Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M5  Net-_M1-Pad3_ q Net-_M10-Pad1_ Net-_M10-Pad1_ mosfet_n		
+M9  Net-_M10-Pad1_ ren GND GND mosfet_n		
+M17  Net-_M17-Pad1_ Net-_M1-Pad3_ dout Net-_M1-Pad1_ mosfet_p		
+M21  dout Net-_M1-Pad3_ GND GND mosfet_n		
+v9  Net-_M1-Pad1_ GND DC		
+v13  ren GND pulse		
+v5  Net-_U10-Pad2_ GND pulse		
+U21  dout plot_v1		
+U17  q plot_v1		
+U2  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ dac_bridge_2		
+U14  Net-_U13-Pad1_ Net-_U13-Pad2_ Net-_U13-Pad3_ Net-_U13-Pad4_ dac_bridge_2		
+U6  Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U13-Pad1_ Net-_U13-Pad2_ mahima_writer		
+U10  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ adc_bridge_2		
+M2  Net-_M1-Pad1_ q Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M14  Net-_M1-Pad1_ ren Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M6  Net-_M1-Pad3_ q Net-_M10-Pad1_ Net-_M10-Pad1_ mosfet_n		
+M10  Net-_M10-Pad1_ ren GND GND mosfet_n		
+M18  Net-_M17-Pad1_ Net-_M1-Pad3_ dout Net-_M1-Pad1_ mosfet_p		
+M22  dout Net-_M1-Pad3_ GND GND mosfet_n		
+v10  Net-_M1-Pad1_ GND DC		
+v14  ren GND pulse		
+v6  Net-_U10-Pad2_ GND pulse		
+U22  dout plot_v1		
+U18  q plot_v1		
+U3  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ dac_bridge_2		
+U15  Net-_U13-Pad1_ Net-_U13-Pad2_ Net-_U13-Pad3_ Net-_U13-Pad4_ dac_bridge_2		
+U7  Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U13-Pad1_ Net-_U13-Pad2_ mahima_writer		
+U11  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ adc_bridge_2		
+M3  Net-_M1-Pad1_ q Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M15  Net-_M1-Pad1_ ren Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M7  Net-_M1-Pad3_ q Net-_M10-Pad1_ Net-_M10-Pad1_ mosfet_n		
+M11  Net-_M10-Pad1_ ren GND GND mosfet_n		
+M19  Net-_M17-Pad1_ Net-_M1-Pad3_ dout Net-_M1-Pad1_ mosfet_p		
+M23  dout Net-_M1-Pad3_ GND GND mosfet_n		
+v11  Net-_M1-Pad1_ GND DC		
+v15  ren GND pulse		
+v7  Net-_U10-Pad2_ GND pulse		
+U23  dout plot_v1		
+U19  q plot_v1		
+U4  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ dac_bridge_2		
+U16  Net-_U13-Pad1_ Net-_U13-Pad2_ Net-_U13-Pad3_ Net-_U13-Pad4_ dac_bridge_2		
+U8  Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U13-Pad1_ Net-_U13-Pad2_ mahima_writer		
+U12  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ adc_bridge_2		
+M4  Net-_M1-Pad1_ q Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M16  Net-_M1-Pad1_ ren Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+M8  Net-_M1-Pad3_ q Net-_M10-Pad1_ Net-_M10-Pad1_ mosfet_n		
+M12  Net-_M10-Pad1_ ren GND GND mosfet_n		
+M20  Net-_M17-Pad1_ Net-_M1-Pad3_ dout Net-_M1-Pad1_ mosfet_p		
+M24  dout Net-_M1-Pad3_ GND GND mosfet_n		
+v12  Net-_M1-Pad1_ GND DC		
+v16  ren GND pulse		
+v8  Net-_U10-Pad2_ GND pulse		
+U24  dout plot_v1		
+U20  q plot_v1		
+X1  Net-_U10-Pad1_ Net-_U13-Pad3_ Net-_U13-Pad4_ q Mahima_6TFInalSRAM		
+U25  Net-_U10-Pad2_ Net-_U10-Pad1_ ren dout PORT		
+v4  Net-_U10-Pad1_ GND pulse		
+v3  Net-_U10-Pad1_ GND pulse		
+v2  Net-_U10-Pad1_ GND pulse		
+v1  Net-_U10-Pad1_ GND pulse		
+
+.end

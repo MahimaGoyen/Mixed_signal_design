@@ -1,0 +1,132 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Mahima1bitRAM
+#
+DEF Mahima1bitRAM X 0 40 Y Y 1 F N
+F0 "X" 0 50 60 H V C CNN
+F1 "Mahima1bitRAM" -50 -50 51 H V C CNN
+F2 "" 0 50 60 H I C CNN
+F3 "" 0 50 60 H I C CNN
+DRAW
+S -400 250 300 -200 0 1 0 N
+X din 1 -400 150 200 L 50 50 1 1 I
+X wl 1 -400 0 200 L 50 50 1 1 I
+X ren 3 -400 -150 200 L 50 50 1 1 I
+X dout 4 300 50 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Mahima_1bitRAM
+#
+DEF Mahima_1bitRAM X 0 40 Y Y 1 F N
+F0 "X" 0 50 60 H V C CNN
+F1 "Mahima_1bitRAM" -50 -50 51 H V C CNN
+F2 "" 0 50 60 H I C CNN
+F3 "" 0 50 60 H I C CNN
+DRAW
+S -400 250 300 -200 0 1 0 N
+X din 1 -400 150 200 L 50 50 1 1 I
+X wl 1 -400 0 200 L 50 50 1 1 I
+X ren 3 -400 -150 200 L 50 50 1 1 I
+X dout 4 300 50 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Mahima_1bit_Final
+#
+DEF Mahima_1bit_Final X 0 40 Y Y 1 F N
+F0 "X" 0 0 60 H V C CNN
+F1 "Mahima_1bit_Final" 0 0 60 H V C BNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -450 350 450 -350 0 1 0 N
+X din 1 -450 150 200 L 50 50 1 1 I
+X wl 2 -450 0 200 L 50 50 1 1 I
+X ren 3 -450 -150 200 L 50 50 1 1 I
+X dout 4 450 0 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Mahima_1bit_sram
+#
+DEF Mahima_1bit_sram X 0 40 Y Y 1 F N
+F0 "X" 0 50 60 H V C CNN
+F1 "Mahima_1bit_sram" -50 -50 60 H V C CNN
+F2 "" 0 50 60 H I C CNN
+F3 "" 0 50 60 H I C CNN
+DRAW
+S -600 250 450 -250 0 1 0 N
+X din 1 -600 150 200 L 50 50 1 1 I
+X wl 2 -600 0 200 L 50 50 1 1 I
+X ren 3 -600 -150 200 L 50 50 1 1 I
+X dout 4 450 0 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Mahima_6TFInalSRAM
+#
+DEF Mahima_6TFInalSRAM X 0 40 Y Y 1 F N
+F0 "X" 0 0 60 H V C CNN
+F1 "Mahima_6TFInalSRAM" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -1050 450 1000 -550 0 1 0 N
+X wl 1 -1050 250 200 L 50 50 1 1 I
+X bl 2 -1050 0 200 L 50 50 1 1 I
+X blb 3 -1050 -200 200 L 50 50 1 1 I
+X q 4 1000 0 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Mahima_SRAM6T
+#
+DEF Mahima_SRAM6T U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "Mahima_SRAM6T" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -400 150 400 -150 0 1 0 N
+X wl 1 -400 100 200 L 50 50 1 1 I
+X bl 2 -400 0 200 L 50 50 1 1 I
+X blb 3 -400 -100 200 L 50 50 1 1 I
+X q 4 400 0 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# mahima_6t_fina
+#
+DEF mahima_6t_fina U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "mahima_6t_fina" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -600 250 450 -200 0 1 0 N
+X wl 1 -600 100 200 L 50 50 1 1 I
+X bl 2 -600 0 200 L 50 50 1 1 I
+X blb 3 -600 -100 200 L 50 50 1 1 I
+X q 4 450 50 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# mahima_6t_final
+#
+DEF mahima_6t_final U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "mahima_6t_final" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -400 150 400 -150 0 1 0 N
+X wl 1 -400 100 200 L 50 50 1 1 I
+X bl 2 -400 0 200 L 50 50 1 1 I
+X blb 3 -400 -100 200 L 50 50 1 1 I
+X q 4 400 0 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

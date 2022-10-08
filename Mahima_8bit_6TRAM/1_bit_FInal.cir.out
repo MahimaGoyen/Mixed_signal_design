@@ -1,0 +1,131 @@
+* /home/mahimagoyen1996/esim-2.3/library/subcircuitlibrary/1_bit_final/1_bit_final.cir
+
+.include mahima_6t_ram.sub
+.include NMOS-180nm.lib
+.include PMOS-180nm.lib
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ dac_bridge_2
+* u13  net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ dac_bridge_2
+* u5  net-_u10-pad3_ net-_u10-pad4_ net-_u13-pad1_ net-_u13-pad2_ mahima_writer
+* u9  net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ adc_bridge_2
+m1 net-_m1-pad1_ q net-_m1-pad3_ net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m13 net-_m1-pad1_ ren net-_m1-pad3_ net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m5 net-_m1-pad3_ q net-_m10-pad1_ net-_m10-pad1_ CMOSP W=360 L=180 M=1
+m9 net-_m10-pad1_ ren gnd gnd CMOSN W=360 L=180 M=1
+m17 net-_m17-pad1_ net-_m1-pad3_ dout net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m21 dout net-_m1-pad3_ gnd gnd CMOSN W=360 L=180 M=1
+v9 net-_m1-pad1_ gnd  dc 1.8
+v13  ren gnd pulse(0 1.8 5u 1p 1p 1u 2u)
+v5  net-_u10-pad2_ gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+* u21  dout plot_v1
+* u17  q plot_v1
+* u2  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ dac_bridge_2
+* u14  net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ dac_bridge_2
+* u6  net-_u10-pad3_ net-_u10-pad4_ net-_u13-pad1_ net-_u13-pad2_ mahima_writer
+* u10  net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ adc_bridge_2
+m2 net-_m1-pad1_ q net-_m1-pad3_ net-_m1-pad1_ CMOSN W=100 L=180 M=1
+m14 net-_m1-pad1_ ren net-_m1-pad3_ net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m6 net-_m1-pad3_ q net-_m10-pad1_ net-_m10-pad1_ CMOSN W=360 L=180 M=1
+m10 net-_m10-pad1_ ren gnd gnd CMOSN W=360 L=180 M=1
+m18 net-_m17-pad1_ net-_m1-pad3_ dout net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m22 dout net-_m1-pad3_ gnd gnd CMOSN W=360 L=180 M=1
+v10 net-_m1-pad1_ gnd  dc 1.9
+v14  ren gnd pulse(0 1.8 0 5u 1p 1p 2p)
+v6  net-_u10-pad2_ gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+* u22  dout plot_v1
+* u18  q plot_v1
+* u3  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ dac_bridge_2
+* u15  net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ dac_bridge_2
+* u7  net-_u10-pad3_ net-_u10-pad4_ net-_u13-pad1_ net-_u13-pad2_ mahima_writer
+* u11  net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ adc_bridge_2
+m3 net-_m1-pad1_ q net-_m1-pad3_ net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m15 net-_m1-pad1_ ren net-_m1-pad3_ net-_m1-pad1_ CMOSP W=180 L=180 M=1
+m7 net-_m1-pad3_ q net-_m10-pad1_ net-_m10-pad1_ CMOSN W=180 L=180 M=1
+m11 net-_m10-pad1_ ren gnd gnd CMOSN W=360 L=180 M=1
+m19 net-_m17-pad1_ net-_m1-pad3_ dout net-_m1-pad1_ CMOSP W=180 L=180 M=1
+m23 dout net-_m1-pad3_ gnd gnd CMOSN W=360 L=180 M=1
+v11 net-_m1-pad1_ gnd  dc 1.8
+v15  ren gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+v7  net-_u10-pad2_ gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+* u23  dout plot_v1
+* u19  q plot_v1
+* u4  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ dac_bridge_2
+* u16  net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ dac_bridge_2
+* u8  net-_u10-pad3_ net-_u10-pad4_ net-_u13-pad1_ net-_u13-pad2_ mahima_writer
+* u12  net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ adc_bridge_2
+m4 net-_m1-pad1_ q net-_m1-pad3_ net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m16 net-_m1-pad1_ ren net-_m1-pad3_ net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m8 net-_m1-pad3_ q net-_m10-pad1_ net-_m10-pad1_ CMOSN W=180 L=180 M=1
+m12 net-_m10-pad1_ ren gnd gnd CMOSN W=180 L=180 M=1
+m20 net-_m17-pad1_ net-_m1-pad3_ dout net-_m1-pad1_ CMOSP W=100 L=180 M=1
+m24 dout net-_m1-pad3_ gnd gnd CMOSN W=360 L=180 M=1
+v12 net-_m1-pad1_ gnd  dc 1.8
+v16  ren gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+v8  net-_u10-pad2_ gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+* u24  dout plot_v1
+* u20  q plot_v1
+x1 net-_u10-pad1_ net-_u13-pad3_ net-_u13-pad4_ q mahima_6t_ram
+* u25  net-_u10-pad2_ net-_u10-pad1_ ren dout port
+v4  net-_u10-pad1_ gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+v3  net-_u10-pad1_ gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+v2  net-_u10-pad1_ gnd pulse(0 1.8 5u 1u 1p 1p 2p)
+v1  net-_u10-pad1_ gnd pulse(0 1.8 5u 1p 1u 1u 2u)
+a1 [net-_u1-pad1_ net-_u1-pad2_ ] [net-_u1-pad3_ net-_u1-pad4_ ] u1
+a2 [net-_u13-pad1_ net-_u13-pad2_ ] [net-_u13-pad3_ net-_u13-pad4_ ] u13
+a3 [net-_u10-pad3_ ] [net-_u10-pad4_ ] [net-_u13-pad1_ ] [net-_u13-pad2_ ] u5
+a4 [net-_u10-pad1_ net-_u10-pad2_ ] [net-_u10-pad3_ net-_u10-pad4_ ] u9
+a5 [net-_u1-pad1_ net-_u1-pad2_ ] [net-_u1-pad3_ net-_u1-pad4_ ] u2
+a6 [net-_u13-pad1_ net-_u13-pad2_ ] [net-_u13-pad3_ net-_u13-pad4_ ] u14
+a7 [net-_u10-pad3_ ] [net-_u10-pad4_ ] [net-_u13-pad1_ ] [net-_u13-pad2_ ] u6
+a8 [net-_u10-pad1_ net-_u10-pad2_ ] [net-_u10-pad3_ net-_u10-pad4_ ] u10
+a9 [net-_u1-pad1_ net-_u1-pad2_ ] [net-_u1-pad3_ net-_u1-pad4_ ] u3
+a10 [net-_u13-pad1_ net-_u13-pad2_ ] [net-_u13-pad3_ net-_u13-pad4_ ] u15
+a11 [net-_u10-pad3_ ] [net-_u10-pad4_ ] [net-_u13-pad1_ ] [net-_u13-pad2_ ] u7
+a12 [net-_u10-pad1_ net-_u10-pad2_ ] [net-_u10-pad3_ net-_u10-pad4_ ] u11
+a13 [net-_u1-pad1_ net-_u1-pad2_ ] [net-_u1-pad3_ net-_u1-pad4_ ] u4
+a14 [net-_u13-pad1_ net-_u13-pad2_ ] [net-_u13-pad3_ net-_u13-pad4_ ] u16
+a15 [net-_u10-pad3_ ] [net-_u10-pad4_ ] [net-_u13-pad1_ ] [net-_u13-pad2_ ] u8
+a16 [net-_u10-pad1_ net-_u10-pad2_ ] [net-_u10-pad3_ net-_u10-pad4_ ] u12
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u1 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u13 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             mahima_writer, NgSpice Name: mahima_writer
+.model u5 mahima_writer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u9 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u2 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u14 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             mahima_writer, NgSpice Name: mahima_writer
+.model u6 mahima_writer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u10 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u3 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u15 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             mahima_writer, NgSpice Name: mahima_writer
+.model u7 mahima_writer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u11 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u4 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u16 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             mahima_writer, NgSpice Name: mahima_writer
+.model u8 mahima_writer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u12 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+.tran 10e-06 100e-06 0e-06
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(dout)
+plot v(q)
+
+.endc
+.end
