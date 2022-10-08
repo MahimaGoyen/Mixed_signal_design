@@ -22,14 +22,15 @@ We will be using 8 of such circuits in order to get the 8 bits required for the 
 </br>
 
 ## 2.	Decoder and Writer
+### Decoder
 Decoder is a digital circuit which is used to change a given code into a set of signals. Here we are using a Decoder to select one out of eight 1-bit RAM cells to perform the read/write operation to.
 </br>
-Decoder
 ![image](https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/decoder.PNG)
 </br>
+### Writer
 This circuit provides the input to the 6T SRAM cell. The funtionality of this block is to provide bl and blb to the SRAM cell, when the inputs wl and din are high the bl and blb will also be high else both the outputs will be low. For this design the Writer Circuit has been designed using the NgVeri feature of the eSIM. The Verilog code is as follows:
 </br>
-Writer
+
 ![image](https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/writer.PNG)
 </br>
 ## 3. 6T SRAM
@@ -41,6 +42,11 @@ Writer
 ## 5.	8 bit SRAM
 ![image](https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/8bit.PNG)
 </br>
+## 6.	Result
+After making the schematic and generating the netlist go back to eSim; select the KiCAD to NgSpice converter and give the required parameters, convert the present circuit to NgSpice. After following the above steps run the simulation to get the output. 
+Due to pin error My simulation is not generating.
+Please find the refernce waveform
+![image](https://github.com/MahimaGoyen/Mixed_signal_design/blob/main/k.jpg)
 
 ## Acknowlegdements
 1. FOSSEE, IIT Bombay
